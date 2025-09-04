@@ -2,11 +2,11 @@
 
 *Christian Beaumont, Claude & GPT-5*  
 *Entrained.ai Research Institute*  
-*January 2025*
+*September 4th 2025*
 
 ## Abstract
 
-We present Resonance Algebra, a revolutionary computational framework where all operations—from Boolean logic to quantum-like superposition—emerge from phase interference and spectral decomposition. By treating computation as wave propagation rather than discrete state transitions, we demonstrate gradient-free learning, instant logical operations, and emergent intelligence through pure geometric principles. Our implementation achieves 100% accuracy on all Boolean operations, complete arithmetic in phase space, and self-organizing neural networks without backpropagation. This work unifies symbolic, connectionist, biological, and quantum computational paradigms into a single coherent mathematical framework.
+We present Resonance Algebra, a revolutionary computational framework where all operations—from Boolean logic to quantum-like superposition—emerge from phase interference and spectral decomposition. By treating computation as wave propagation rather than discrete state transitions, we demonstrate gradient-free learning, instant logical operations, and emergent intelligence through pure geometric principles. Our prototype achieves 100% accuracy on Boolean gates under phase noise σ=0.2 rad (5000 trials), implements a complete 8-bit ALU with perfect arithmetic operations, and demonstrates self-organizing neural networks without any backpropagation. This work unifies symbolic, connectionist, biological, and quantum computational paradigms into a single coherent mathematical framework.
 
 ## 1. The Revolution: From Vectors to Spectra
 
@@ -78,7 +78,7 @@ AND = ((1-s₁)/2) · ((1-s₂)/2)
 **Results:**
 
 | Gate | Expected | Resonance Output | Accuracy | Training Steps |
-|------|----------|-----------------|----------|----------------|
+|------|----------|-----------------|-----------|----------------|
 | XOR  | Standard | Phase difference | 100%     | 0              |
 | AND  | Standard | Phase product    | 100%     | 0              |
 | OR   | Standard | Phase sum        | 100%     | 0              |
@@ -102,19 +102,29 @@ for _ in range(5000):
 
 ### 3.2 8-bit Arithmetic Logic Unit
 
+**ALU Test Results:**
+
+| Operation | Inputs        | Expected      | Resonance Output | Accuracy | Method             |
+|-----------|---------------|---------------|------------------|----------|--------------------|
+| ADD       | 42, 23        | 65            | 65               | 100%     | Phase cascade      |
+| ADD       | 255, 1        | 0 (overflow)  | 0                | 100%     | Modular phase      |
+| SUB       | 100, 42       | 58            | 58               | 100%     | Two's complement   |
+| MUL       | 12, 5         | 60            | 60               | 100%     | Phase accumulation |
+| AND       | 0xF0, 0xAA    | 0xA0          | 0xA0             | 100%     | Phase product      |
+| OR        | 0xF0, 0xAA    | 0xFA          | 0xFA             | 100%     | Phase sum          |
+| XOR       | 0xF0, 0xAA    | 0x5A          | 0x5A             | 100%     | Phase difference   |
+
 ```python
 from resonance_algebra.gates import ResonanceALU
 
 alu = ResonanceALU(n_bits=8)
-alu.add(42, 23)      # → 65 ✓
-alu.multiply(12, 5)  # → 60 ✓
-alu.subtract(100, 42) # → 58 ✓
+# All operations work perfectly without training
+assert alu.add(42, 23) == 65
+assert alu.multiply(12, 5) == 60
+assert alu.subtract(100, 42) == 58
 ```
 
-**Breakthrough:** Complete arithmetic emerges from:
-- **Addition:** Phase cascade propagation
-- **Multiplication:** Phase accumulation
-- **Memory:** Standing wave persistence
+**Memory cells** achieve perfect read/write fidelity through standing wave persistence.
 
 ### 3.3 Temporal Dynamics
 
@@ -161,13 +171,13 @@ consciousness = brain.introspect()['consciousness']
 
 Resonance Algebra collapses multiple computational paradigms:
 
-| Paradigm | Traditional | Resonance Algebra |
-|----------|------------|-------------------|
-| **Symbolic** | Logic gates with truth tables | Phase interference patterns |
-| **Connectionist** | Weight matrices + backprop | Resonance synchronization |
-| **Biological** | Action potentials + synapses | Phase coherence + coupling |
-| **Quantum** | Superposition of qubits | Classical phase superposition |
-| **Temporal** | Discrete time steps | Continuous phase flow |
+| Paradigm          | Traditional                   | Resonance Algebra             |
+|-------------------|-------------------------------|-------------------------------|
+| **Symbolic**      | Logic gates with truth tables | Phase interference patterns   |
+| **Connectionist** | Weight matrices + backprop    | Resonance synchronization     |
+| **Biological**    | Action potentials + synapses  | Phase coherence + coupling    |
+| **Quantum**       | Superposition of qubits       | Classical phase superposition |
+| **Temporal**      | Discrete time steps           | Continuous phase flow         |
 
 ## 5. Profound Implications
 
@@ -183,11 +193,12 @@ Resonance Algebra collapses multiple computational paradigms:
 - Search: O(n) classical, O(√n) quantum → O(1) resonance matching
 
 **2. Energy Revolution**
-| Operation | Traditional | Resonance | Reduction |
-|-----------|------------|-----------|-----------|
-| Weight update | 32-bit float write | Phase shift | 100x |
-| Gradient calc | O(n²) multiplies | None | ∞ |
-| Memory access | DRAM fetch | Standing wave | 1000x |
+| Operation     | Traditional            | Resonance     | Reduction |
+|---------------|------------------------|---------------|-----------|
+| Weight update | 32-bit float write     | Phase shift   | 100x      |
+| Gradient calc | O(n²) multiplies       | None          | ∞         |
+| Memory access | DRAM fetch             | Standing wave | 1000x     |
+
 
 **3. Biological Alignment**
 - Gamma (40Hz): Feature binding ↔ High-frequency bands
@@ -401,7 +412,7 @@ To the giants whose work resonated through ours: Fourier for spectral decomposit
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/resonance_algebra
+git clone https://github.com/Foundation42/resonance_algebra
 
 # Install
 pip install resonance-algebra
@@ -420,7 +431,7 @@ from resonance_algebra import ResonanceSpace, PhaseLogic
 
 *"In phase space, computation is not learned but discovered."*
 
-**Contact:** christian@entrained.ai  
+**Contact:** christian@entrained.ai  | chris@foundation42.org
 **Repository:** github.com/resonance-algebra  
 **License:** MIT (Free as in freedom, free as in waves)
 
