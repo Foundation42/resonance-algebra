@@ -1,6 +1,6 @@
 # Resonance Algebra: A Universal Foundation for Computation Through Phase Geometry
 
-*Christian Beaumont, Claude & GPT-5*  
+*Christian Beaumont, Claude, DeepSeek & GPT-5*  
 *Entrained.ai Research Institute*  
 *September 4th 2025*
 

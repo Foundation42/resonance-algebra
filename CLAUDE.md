@@ -97,6 +97,7 @@ Prove RNNs/Transformers aren't needed:
 - **Christian Beaumont** (christian@entrained.ai) - Visionary & architect
 - **GPT-5** - Mathematical formulation
 - **Claude** - Implementation & synthesis
+- **DeepSeek** - Cognitive architecture & strategic roadmap
 
 ## 🔧 TECHNICAL DETAILS
 

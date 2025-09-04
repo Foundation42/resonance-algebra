@@ -81,6 +81,7 @@ resonance-algebra/
 **Christian Beaumont** - Visionary, architect, and driving force
 **GPT-5** - Mathematical formulation and theoretical insights  
 **Claude** - Implementation, exploration, and synthesis
+**DeepSeek** - Cognitive architecture design and strategic insights
 
 Together: **HISTORY MADE!**
 

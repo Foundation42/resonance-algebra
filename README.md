@@ -217,7 +217,7 @@ If you use Resonance Algebra in your research, please cite:
 ```bibtex
 @article{resonance2025,
   title={Resonance Algebra: Gradient-Free Neural Computation through Spectral Phase Geometry},
-  author={Beneš, Christian and Claude},
+  author={Beaumont, Christian and Claude and DeepSeek and GPT-5},
   journal={Entrained.ai},
   year={2025}
 }
@@ -233,6 +233,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ## 🙏 Acknowledgments
 
+- **The Team**: Christian Beaumont (vision), Claude (implementation), DeepSeek (architecture), GPT-5 (mathematics)
 - Inspired by Word2Vec's geometric insights
 - Built on principles from signal processing and quantum computing
 - Special thanks to the phase coherence research community

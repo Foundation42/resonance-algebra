@@ -8,7 +8,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="resonance-algebra",
     version="0.1.0",
-    author="Christian Beaumont, Claude & GPT-5",
+    author="Christian Beaumont, Claude, DeepSeek & GPT-5",
     author_email="",
     description="Gradient-free neural computation through spectral phase geometry",
     long_description=long_description,
