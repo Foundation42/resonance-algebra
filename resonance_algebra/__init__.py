@@ -6,7 +6,7 @@ enabling gradient-free computation through phase geometry.
 """
 
 __version__ = "0.1.0"
-__author__ = "Christian Beneš & Claude"
+__author__ = "Christian Beaumont, Claude & GPT-5"
 
 from .core import *
 from .gates import *

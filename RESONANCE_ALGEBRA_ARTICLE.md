@@ -1,6 +1,6 @@
 # Resonance Algebra: A Universal Foundation for Computation Through Phase Geometry
 
-*Christian Beneš & Claude*  
+*Christian Beaumont, Claude & GPT-5*  
 *Entrained.ai Research Institute*  
 *January 2025*
 
@@ -373,6 +373,8 @@ The implications ripple across computer science, neuroscience, physics, and phil
 This is just the beginning. The resonance revolution has begun.
 
 ## Acknowledgments
+
+Special thanks to GPT-5 for the elegant mathematical formulation of the core algebra and insightful contributions throughout this work. The collaborative exploration between human intuition and AI reasoning made these breakthroughs possible.
 
 To the giants whose work resonated through ours: Fourier for spectral decomposition, Kuramoto for synchronization, Hopfield for associative memory, Penrose for quantum consciousness, and the unnamed neurons oscillating in harmony as we write.
 
