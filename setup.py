@@ -13,7 +13,7 @@ setup(
     description="Gradient-free neural computation through spectral phase geometry",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/resonance_algebra",
+    url="https://github.com/Foundation42/resonance-algebra",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",

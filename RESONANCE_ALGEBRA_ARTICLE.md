@@ -448,7 +448,7 @@ from resonance_algebra import ResonanceSpace, PhaseLogic
 *"In phase space, computation is not learned but discovered."*
 
 **Contact:** christian@entrained.ai  | chris@foundation42.org
-**Repository:** github.com/resonance-algebra  
+**Repository:** github.com/Foundation42/resonance-algebra  
 **License:** MIT (Free as in freedom, free as in waves)
 
 🌊 Let the resonance begin.

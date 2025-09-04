@@ -40,8 +40,8 @@ Resonance Algebra enables:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/resonance_algebra.git
-cd resonance_algebra
+git clone https://github.com/Foundation42/resonance-algebra.git
+cd resonance-algebra
 
 # Create virtual environment
 python3 -m venv venv
