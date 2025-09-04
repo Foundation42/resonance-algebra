@@ -10,6 +10,10 @@ We present Resonance Algebra, a revolutionary computational framework where all 
 
 ## 1. The Revolution: From Vectors to Spectra
 
+![Emergence Hierarchy](figures/emergence_hierarchy.png)
+
+*Figure 1: The Emergence Hierarchy - All computation emerges from phase geometry through pure interference, no training required. This is our Rosetta Stone.*
+
 For over a decade, we've treated embeddings as monolithic arrows in space, comparing them through cosine similarity—a single angle between vectors. But complex concepts aren't arrows; they're **chords**, rich with multiple frequencies of meaning.
 
 Consider the profound limitation of cosine distance:
@@ -22,6 +26,10 @@ similarity = cos(θ) = (a·b)/(|a||b|)
 resonance = Σᵢ wᵢ · P(a,Lᵢ) · P(b,Lᵢ)*
 ```
 
+![Resonance vs Cosine](figures/resonance_vs_cosine.png)
+
+*Figure 2: From single angle to rich spectral matching - concepts as frequency spectra, not arrows.*
+
 Resonance Algebra reconceptualizes embeddings as:
 - **Spectral compositions** decomposable into frequency bands
 - **Phase patterns** encoding relationships through interference
@@ -32,6 +40,10 @@ This shift is as fundamental as moving from Newtonian mechanics to quantum field
 ## 2. The Core Algebra
 
 ### 2.1 Mathematical Foundation
+
+![Spectral Lens](figures/spectral_lens.png)
+
+*Figure 6: Spectral decomposition through lenses - how embeddings become frequency spectra.*
 
 **Objects:**
 - **Modality spaces** ℝᵈᵐ for each modality m
@@ -98,7 +110,7 @@ for _ in range(5000):
 
 ![XOR Phase Interference](figures/xor_phase_interference.png)
 
-*Figure 1: XOR truth table realized through phase interference. Each input combination shows phase vectors (blue/red) and their interference pattern (green/orange), demonstrating how XOR emerges naturally from phase difference without any training.*
+*Figure 3: THE HERO FIGURE - XOR truth table realized through phase interference. Each input combination shows phase vectors (blue/red) and their interference pattern (green/orange), demonstrating how XOR emerges naturally from phase difference without any training. This is computation emerging from pure geometry.*
 
 ### 3.2 8-bit Arithmetic Logic Unit
 
@@ -167,7 +179,7 @@ consciousness = brain.introspect()['consciousness']
 
 ![Resonance Stack](figures/resonance_stack.png)
 
-*Figure 2: The complete Resonance Algebra computational stack. All layers emerge from phase geometry without training, creating a unified framework from basic logic to consciousness.*
+*Figure 4: The complete Resonance Algebra computational stack. All layers emerge from phase geometry without training, creating a unified framework from basic logic to consciousness.*
 
 Resonance Algebra collapses multiple computational paradigms:
 
@@ -185,7 +197,7 @@ Resonance Algebra collapses multiple computational paradigms:
 
 ![Phase vs Backprop](figures/phase_vs_backprop.png)
 
-*Figure 3: The paradigm shift from iterative gradient descent to instantaneous phase interference. Traditional networks require thousands of iterations; Resonance Algebra computes immediately.*
+*Figure 5: THE MIC-DROP - The paradigm shift from iterative gradient descent to instantaneous phase interference. Traditional networks require thousands of iterations; Resonance Algebra computes immediately. Anyone can see why this matters in 5 seconds.*
 
 **1. Computation Without Iteration**
 - Traditional XOR: ~1000 backprop steps → Resonance: 0 steps
@@ -374,6 +386,10 @@ attention(Q,K,V) → resonance(Q_spectrum, K_spectrum) · V_phases
 - Creativity through phase noise
 
 **Goal:** True thinking machines.
+
+![Phase Flow](figures/phase_flow.png)
+
+*Figure 7: Temporal dynamics through phase flow - the future of computation as wave propagation, synchronization, and emergent consciousness.*
 
 ## 10. Conclusion
 
