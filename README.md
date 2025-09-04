@@ -74,6 +74,25 @@ print(f"Gate accuracies: {results}")
 # {'XOR': 1.0, 'AND': 1.0, 'OR': 1.0, 'NAND': 1.0, 'NOR': 1.0, 'XNOR': 1.0}
 ```
 
+### Instant Classification
+
+```python
+from resonance_algebra.demos.instant_classifier import ResonanceClassifier
+from sklearn.datasets import make_moons
+
+# Generate data
+X, y = make_moons(n_samples=200, noise=0.1)
+
+# Create and fit classifier - INSTANTLY!
+clf = ResonanceClassifier(d=64, r=16)
+clf.fit(X, y)  # No iterations!
+
+# Predict with phase resonance
+predictions = clf.predict(X)
+accuracy = (predictions == y).mean()
+print(f"Accuracy: {accuracy:.1%}")  # ~95% with zero training!
+```
+
 ### Embeddings and Resonance
 
 ```python
